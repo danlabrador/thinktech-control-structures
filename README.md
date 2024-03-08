@@ -13,19 +13,23 @@ To run the tests, you'll need to use the terminal (Linux/macOS) or Command Promp
 1. **Open your terminal or command prompt.**
 
 2. **Navigate to your project directory.** If your project is on your Desktop and named "python-challenges", you would type:
+
    ```bash
    cd Desktop/python-challenges
    ```
-   
+
 3. **Change directory to the `tests/` folder:**
+
    ```bash
    cd tests
    ```
 
 4. **Run a test file.** For example, to run the tests for Activity 1, type:
+
    ```bash
    python test_activity1.py
    ```
+
    Replace `test_activity1.py` with the appropriate test file name for other activities.
 
 ## Understanding Test Outputs
