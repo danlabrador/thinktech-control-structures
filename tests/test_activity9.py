@@ -19,11 +19,11 @@ if __name__ == "__main__":
     # Test with a string with mixed case
     test("Mixed case", char_frequency, {'H': 1, 'e': 1, 'l': 2, 'o': 1}, "Hello")
     # Test with a string including spaces and punctuation
-    test("Spaces and punctuation", char_frequency, {'a': 3, ' ': 2, 'b': 1, 'c': 1, '!': 1}, "a a b c!")
+    test("Spaces and punctuation", char_frequency, {'a': 2, ' ': 3, 'b': 1, 'c': 1, '!': 1}, "a a b c!")
     # Test with numbers in the string
     test("String with numbers", char_frequency, {'1': 1, '2': 2, 'a': 1}, "12a2")
     # Test with a longer string
-    test("Longer string", char_frequency, {'t': 2, 'h': 1, 'e': 3, ' ': 2, 'q': 1, 'u': 2, 'i': 1, 'c': 1, 'k': 1, 'b': 1, 'r': 1, 'o': 1, 'w': 1, 'n': 1, 'f': 1, 'x': 1, 'j': 1, 'm': 1, 'p': 1, 's': 1, 'v': 1, 'l': 1, 'a': 1, 'z': 1, 'd': 1, 'g': 1}, "the quick brown fox jumps over the lazy dog")
+    test("Longer string", char_frequency, {'t': 2, 'h': 2, 'e': 3, ' ': 8, 'q': 1, 'u': 2, 'i': 1, 'c': 1, 'k': 1, 'b': 1, 'r': 2, 'o': 4, 'w': 1, 'n': 1, 'f': 1, 'x': 1, 'j': 1, 'm': 1, 'p': 1, 's': 1, 'v': 1, 'l': 1, 'a': 1, 'z': 1, 'y': 1, 'd': 1, 'g': 1}, "the quick brown fox jumps over the lazy dog")
     # Test with a string containing only the same character
     test("String with same character", char_frequency, {'a': 5}, "aaaaa")
     # Test with special characters only
